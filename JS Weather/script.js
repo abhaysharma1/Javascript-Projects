@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded',()=>{
 
     const error = document.getElementById('error')
 
-    const apikey =``
+    const apikey =` `
 
 
     getweather.addEventListener('click',async ()=>{
