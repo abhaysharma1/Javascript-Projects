@@ -64,3 +64,7 @@ button:hover {
 .hidden {
   display: none;
 }
+
+.highlight{
+  background-color: #6200ea;
+}
