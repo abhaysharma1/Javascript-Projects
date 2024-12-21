@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
     const addbut = document.getElementById(`addbut`)
     const list = document.getElementById(`list`)
 
-    let arr = JSON.parse(localStorage.getItem("tasks")) || []
+    let arr = JSON.parse(localStorage.getItem("tasks")) || [ ]
 
     arr.forEach(task => {
             rendertasks(task) 
